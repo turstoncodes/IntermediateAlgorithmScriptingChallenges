@@ -1,0 +1,1 @@
+{"index.js":"function sumAll(arr) {\n  // Buckle up everything to one!\n\n  // Using ES6 arrow function (one-liner)\n  var sortedArr = arr.sort((a,b) => a-b);\n  var firstNum = arr[0];\n  var lastNum = arr[1];\n  // Using Arithmetic Progression summing formula\n\n  var sum = (lastNum - firstNum + 1) * (firstNum + lastNum) / 2;\n  return sum;\n}"}

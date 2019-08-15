@@ -1,0 +1,1 @@
+{"index.js":"function spinalCase(str) {\n  // Create a variable for the white space and underscores.\n  var regex = /\\s+|_+/g;\n\n  // Replace low-upper case to low-space-uppercase\n  str = str.replace(/([a-z])([A-Z])/g, '$1 $2');\n\n  // Replace space and underscore with -\n  return str.replace(regex, '-').toLowerCase();\n}\n\n// test here\nspinalCase('This Is Spinal Tap');"}
